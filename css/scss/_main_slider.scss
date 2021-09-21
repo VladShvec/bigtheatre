@@ -315,3 +315,14 @@ color: #FFFFFF;
         
     }
 }
+@media screen and (max-width: 350px){
+    .large_block .slider__head {
+    letter-spacing: 6px;
+    font-size: 47px;
+        line-height: 120%;
+    }
+    .large_block {
+    
+        max-width: 231px;
+    }
+}
