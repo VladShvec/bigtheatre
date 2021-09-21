@@ -815,3 +815,10 @@ aside .aside__content .aside__head:before {
     padding-top: 260px;
   }
 }
+@media screen and (max-width: 450px) {
+  .large_block {
+    padding: 0;
+    max-width: 300px;
+    padding-top: 260px;
+  }
+}

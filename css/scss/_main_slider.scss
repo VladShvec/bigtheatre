@@ -307,3 +307,11 @@ color: #FFFFFF;
         
     }
 }
+@media screen and (max-width: 450px){
+    .large_block{
+        padding: 0;
+        max-width: 300px;
+        padding-top: 260px;
+        
+    }
+}
