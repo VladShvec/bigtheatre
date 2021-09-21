@@ -1,10 +1,11 @@
 .main__block__slider{
     
     position: relative;
+    
     margin-top: -200px;
     display: flex;
         min-height: 100vh;
-   
+   padding-bottom: 253px;
     min-width: 100vh;
     background-image: url(../../img/bigtheatre_fullscreen.jpg);
     background-repeat: no-repeat;
@@ -198,9 +199,9 @@ content: "СЛЕД";
 
     box-sizing: border-box;
     padding-top: 0;
-    margin-top: -4px;
-    max-width: 696px;
-    padding-right: 133px;
+    margin-top: 228px;
+    
+    padding-right: 71px;
 
             .slider__head{
                 font-family: 'Open Sans Condensed';
@@ -297,6 +298,7 @@ color: #FFFFFF;
     }
     .main__block__slider{
         align-items: flex-start;
+        padding-bottom: 19px;
     }
 }
 @media screen and (max-width: 576px){
@@ -306,8 +308,11 @@ color: #FFFFFF;
         padding-top: 260px;
         
     }
+    .main__block__slider{
+        z-index: -1;
+    }
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 552px){
     .large_block{
         padding: 0;
         max-width: 300px;
