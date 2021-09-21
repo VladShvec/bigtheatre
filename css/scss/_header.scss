@@ -74,6 +74,9 @@
 .burger__menu{
     display: none;
 }
+.menu__icons__block{
+    display: none;
+}
 /*---------------------Адаптация-Планшет------------------*/
 @media screen and (max-width:992px){
     .header__content{
@@ -116,9 +119,11 @@
   animation-duration: 0.5s;
         background-color: #333;
         .menu__icons__block{
+    display: flex;  
     flex-direction: column;
     margin-top: 48px;
     padding: 0 51px;
+          
             .icons__first__column{
                     margin-bottom: 51px;
                        padding-left: 0px;
