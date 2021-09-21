@@ -72,7 +72,7 @@ body {
   min-height: 100%;
   width: 100%;
   overflow: hidden;
-  background-image: url(../../img/medium.jpg);
+  background-image: url(../../img/small.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   display: -moz-flex;
@@ -519,7 +519,7 @@ aside .aside__content .aside__head:before {
 }
 .main__block__slider {
   position: relative;
-  margin-top: -125px;
+  margin-top: -200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -702,7 +702,7 @@ aside .aside__content .aside__head:before {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding-top: 0;
-    margin-top: -158px;
+    margin-top: -4px;
     max-width: 696px;
     padding-right: 133px;
   }
@@ -787,7 +787,7 @@ aside .aside__content .aside__head:before {
     box-sizing: border-box;
     padding: 0 72px;
     text-align: left;
-    padding-top: 240px;
+    padding-top: 317px;
     margin-top: 0;
     margin-bottom: 32px;
   }
@@ -812,6 +812,6 @@ aside .aside__content .aside__head:before {
   .large_block {
     padding: 0;
     max-width: 520px;
-    padding-top: 187px;
+    padding-top: 260px;
   }
 }
