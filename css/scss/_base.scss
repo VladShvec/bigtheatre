@@ -1,0 +1,41 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    box-sizing: border-box;   
+//    font-family: 'Open Sans', sans-serif;
+//    font-family: 'Open Sans Condensed', sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../../img/Main-page.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+._container
+{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/*---------------------Адаптация-------------------*/
+@media screen and (max-width:992px){
+    ._container{
+       max-width: 692px; 
+    }
+}
+@media screen and (max-width:768px){
+    ._container{
+       max-width: 692px;
+        margin: 0 39px;
+    }
+}
+@media screen and (max-width:576px){
+    ._container{
+       max-width: 510px; 
+        margin: 0 33px ;    
+    }
+}
