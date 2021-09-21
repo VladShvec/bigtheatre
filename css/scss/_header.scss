@@ -6,6 +6,9 @@
         padding: 50px 20px;
     justify-content: space-between;
         nav{
+            .aside__icons__block{
+                display: none;
+            }
             .nav__menu{
             display: flex;
                 li{
@@ -112,8 +115,54 @@
          animation-name: example;
   animation-duration: 0.5s;
         background-color: #333;
+        .menu__icons__block{
+    flex-direction: column;
+    margin-top: 48px;
+    padding: 0 51px;
+            .icons__first__column{
+                    margin-bottom: 51px;
+                       padding-left: 0px;
+                .menu__icons__link  {
+                    margin-right: 56px;
+    vertical-align: text-bottom;
 
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                     svg{
+                        path{
+                            fill: #fff !important;
+                         fill-opacity:1;
+                        
+                         }
+                     
+                            }     
+                    }      
+                }
+                
+            .icons__second__column{
+                margin-left: -5px;
+                .menu__icons__link  {
+                margin-right: 43px;
+                vertical-align: text-bottom;
+                   
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                     svg{
+                        path{
+                            fill: #fff !important;
+                         fill-opacity:1;
+                            &:hover{
+                                fill: #D1A954 ; 
+                            }
+                         }
+                    }  
+
+            }
+        }
 }
+    }
         .nav__menu{
             flex-direction: column;
         }

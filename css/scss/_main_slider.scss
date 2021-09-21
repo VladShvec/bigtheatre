@@ -1,16 +1,20 @@
 .main__block__slider{
+    
     position: relative;
     margin-top: -125px;
-        height: 100vh;
+    display: flex;
+        min-height: 100vh;
+   
     min-width: 100vh;
     background-image: url(../../img/bigtheatre_fullscreen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    padding-bottom: 178px;
+    background-position: top center;
+//    padding-bottom: 178px;
+    align-items: center;
 }
 .slides_blocks{
-    padding-top: 267px;
+    padding-top: 237px;
     position: relative;
     padding-bottom: 60px;
     .slider__item{
@@ -180,13 +184,83 @@ content: "СЛЕД";
 //.slick-dots li.slick-active{}
 ///* Элемент точки */
 //.slick-dots li button{}
+.large_block{
+    display: none;
+}
 //АДАПТАЦИЯ
 @media screen and (max-width: 992px){
     .slides_blocks{
         display: none;
         
     }
+    .large_block{
+    display: block;
+
+    box-sizing: border-box;
+    padding-top: 0;
+    margin-top: -158px;
+    max-width: 696px;
+    padding-right: 133px;
+
+            .slider__head{
+                font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 87px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+ color: #fff;
+                margin-bottom: 30px;
+            }
+            .slider__under_head{
+                font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+
+color: #FFFFFF;
+                margin-bottom: 43px;
+            } 
+            .slider__button{
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    min-width: 160px;
+    min-height: 52px;
+    background-color: #D1A954;
+    box-sizing: border-box;
+    padding: 0px 45px;
+    color: #fff;  
+    border: none;
+    transition: all 1s ease 0s;            
+                &:hover{
+                    opacity: 0.8;
+                    cursor: pointer;
+                }            
+                
+            }
+        }
+    .main__block__slider{
+        align-items: center;
+    }    
 }
+
 @media screen and (max-width: 1450px){
 .slider__text{
         padding-right: 34px !important;
@@ -199,4 +273,37 @@ content: "СЛЕД";
         padding-left: 40px;
     padding-right: 40px;
 }
+}
+@media screen and (max-width: 768px){
+    .large_block{
+        display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 72px;
+    text-align: left;
+    padding-top: 240px;
+        margin-top: 0;
+    margin-bottom: 32px;    
+        .slider__head{
+            letter-spacing: 6px;
+            font-size: 66px;
+        }
+        .slider__under_head{
+            margin-bottom: 45px;
+        }
+        .slider__button{
+            margin-left: 3px;
+        }
+    }
+    .main__block__slider{
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width: 576px){
+    .large_block{
+        padding: 0;
+        max-width: 520px;
+        padding-top: 187px;
+        
+    }
 }

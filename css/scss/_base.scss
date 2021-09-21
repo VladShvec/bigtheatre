@@ -12,9 +12,15 @@ body{
     min-height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url(../../img/Main-page.jpg);
+    background-image: url(../../img/medium.jpg);
     background-position: center top;
     background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
 }
 ._container
 {
