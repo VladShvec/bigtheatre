@@ -836,9 +836,13 @@ aside .aside__content .aside__head:before {
     max-width: 520px;
     padding-top: 260px;
   }
+  .large_block .slider__head {
+    font-size: 64px;
+  }
 
   .main__block__slider {
-    z-index: -1;
+    min-height: 100%;
+    padding-bottom: 78px;
   }
 }
 @media screen and (max-width: 552px) {
@@ -1008,7 +1012,6 @@ aside .aside__content .aside__head:before {
   .about {
     padding-top: 78px;
     padding-bottom: 85px;
-    margin-top: -195px;
   }
 
   .about__main__info {
@@ -1036,5 +1039,19 @@ aside .aside__content .aside__head:before {
 
   .about__some__numbers {
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 455px) {
+  .about__some__numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }

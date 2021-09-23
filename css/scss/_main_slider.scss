@@ -307,9 +307,15 @@ color: #FFFFFF;
         max-width: 520px;
         padding-top: 260px;
         
+        .slider__head{
+         font-size: 64px;    
+        } 
     }
+    
     .main__block__slider{
-        z-index: -1;
+        min-height: 100%;
+        padding-bottom: 78px;
+//        margin-bottom: 270px;
     }
 }
 @media screen and (max-width: 552px){
